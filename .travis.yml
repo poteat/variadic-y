@@ -5,4 +5,5 @@ jobs:
   include:
     - stage: test
       script: npm test
-script: ./node_modules/.bin/codecov
+    - stage: coverage
+      script: ./node_modules/.bin/codecov
