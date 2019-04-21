@@ -1,0 +1,27 @@
+{
+  "name": "combinators-ts",
+  "version": "1.0.0",
+  "description": "Strictly typed variadic combinators for fun and profit",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "jest --watch",
+    "build": "tsc"
+  },
+  "keywords": [
+    "combinators",
+    "typescript",
+    "y",
+    "combinator",
+    "variadic"
+  ],
+  "author": "poteat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4"
+  }
+}
