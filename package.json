@@ -1,7 +1,7 @@
 {
-  "name": "combinators-ts",
+  "name": "variadic-y",
   "version": "1.0.0",
-  "description": "Strictly typed variadic combinators for fun and profit",
+  "description": "Variadic y-combinator for recursive anonymous functions",
   "main": "./dist/index.js",
   "scripts": {
     "start": "ts-node ./src/index.ts",

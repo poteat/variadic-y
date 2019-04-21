@@ -1,0 +1,11 @@
+language: node_js
+node_js: "11"
+
+jobs:
+  include:
+    - stage: test
+      script: npm test
+    - stage: lint
+      script: npm run lint
+    - stage: coverage
+script: npm run coverage && nyc report --reporter=text-lcov > coverage.lcov && ./node_modules/.bin/codecov

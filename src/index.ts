@@ -1,5 +1,4 @@
-function parseLine(line: string) {
-  return "abc";
-}
-
-export { parseLine };
+export const Y = (a: any) =>
+  ((b: any) => a((...c: any[]) => b(b)(...c)))((b: any) =>
+    a((...c: any[]) => b(b)(...c))
+  );
