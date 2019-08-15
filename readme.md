@@ -1,9 +1,8 @@
 # variadic-y
 
-![license](https://img.shields.io/github/license/poteat/variadic-y.svg?)
-![build](https://travis-ci.org/poteat/variadic-y.svg?branch=master)
-![coverage](https://img.shields.io/codecov/c/github/poteat/variadic-y.svg)
-
+[![license](https://img.shields.io/github/license/poteat/variadic-y.svg?)](https://choosealicense.com/licenses/mit/)
+[![build](https://travis-ci.org/poteat/variadic-y.svg?branch=master)](https://travis-ci.org/poteat/variadic-y)
+[![coverage](https://img.shields.io/codecov/c/github/poteat/variadic-y.svg)](https://codecov.io/gh/poteat/variadic-y)
 Variadic y-combinator for recursive anonymous functions.
 
 ## Installation
