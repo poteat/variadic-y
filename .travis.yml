@@ -1,8 +1,11 @@
 language: node_js
-node_js: 11
+node_js: 12.4.0
 
 jobs:
   include:
+    - stage: lint
+      script:
+        - npx eslint ./src/**
     - stage: test
       script:
         - npm test
