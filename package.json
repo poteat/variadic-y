@@ -1,6 +1,6 @@
 {
   "name": "variadic-y",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Variadic y-combinator for recursive anonymous functions",
   "main": "./dist/index.js",
   "scripts": {
